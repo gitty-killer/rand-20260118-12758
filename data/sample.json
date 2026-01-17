@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "stock_item-01",
+      "name": "stock_item_01",
+      "category": "hardware",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "stock_item-02",
+      "name": "stock_item_02",
+      "category": "office",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "stock_item-03",
+      "name": "stock_item_03",
+      "category": "spares",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "stock_item-04",
+      "name": "stock_item_04",
+      "category": "packaging",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "stock_item-05",
+      "name": "stock_item_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "stock_item-06",
+      "name": "stock_item_06",
+      "category": "office",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "stock_item-07",
+      "name": "stock_item_07",
+      "category": "spares",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "stock_item-08",
+      "name": "stock_item_08",
+      "category": "packaging",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "stock_item-09",
+      "name": "stock_item_09",
+      "category": "hardware",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "stock_item-10",
+      "name": "stock_item_10",
+      "category": "office",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "stock_item-11",
+      "name": "stock_item_11",
+      "category": "spares",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "stock_item-12",
+      "name": "stock_item_12",
+      "category": "packaging",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "stock_item-12",
+    "issue_count": 1
+  }
+}

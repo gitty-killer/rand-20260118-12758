@@ -1,0 +1,13 @@
+{
+  "project_title": "Inventory Optimizer",
+  "goal": "Reduce stockouts by summarizing inventory risk and category coverage.",
+  "entity_name": "stock_item",
+  "amount_label": "units",
+  "score_label": "quality_score",
+  "categories": [
+    "hardware",
+    "office",
+    "spares",
+    "packaging"
+  ]
+}
